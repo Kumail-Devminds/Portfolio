@@ -3,11 +3,6 @@ import SkillCard from './SkillCard'
 
 const skillItem = [
   {
-    imgSrc: '/images/figma.svg',
-    label: 'Figma',
-    desc: 'Design tool'
-  },
-  {
     imgSrc: '/images/html-5.svg',
     label: 'HTML',
     desc: 'Markup Language'
@@ -47,10 +42,15 @@ const skillItem = [
     label: 'NodeJS',
     desc: 'Web Server'
   },
-    {
+  {
     imgSrc: '/images/shopify.svg',
     label: 'Shopify',
     desc: 'eCommerce Platform'
+  },
+  {
+    imgSrc: '/images/figma.svg',
+    label: 'Figma',
+    desc: 'Design tool'
   },
   {
     imgSrc: '/images/github.svg',
