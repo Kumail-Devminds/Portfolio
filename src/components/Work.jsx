@@ -8,12 +8,12 @@ const works = [
     tags: ['Shopify', 'eCommerce', 'Custom Apps Integration'],
     projectLink: 'https://danielsmartmfg.com/'
   },
-  {
-    imgSrc: '/images/Staccia.png',
-    title: 'Premium Athletic Wear Shopify Store',
-    tags: ['Shopify 2.0', 'eCommerce', 'Custom Functionalities'],
-    projectLink: 'https://stacciathletics.com/'
-  },
+  // {
+  //   imgSrc: '/images/Staccia.png',
+  //   title: 'Premium Athletic Wear Shopify Store',
+  //   tags: ['Shopify 2.0', 'eCommerce', 'Custom Functionalities'],
+  //   projectLink: 'https://stacciathletics.com/'
+  // },
   {
     imgSrc: '/images/Beechtree.png',
     title: 'Women’s Fashion & Apparel Shopify Store',
@@ -25,6 +25,12 @@ const works = [
     title: 'Nova Ceramics Shopify Store',
     tags: ['eCommerce', 'Shopify 2.0', 'Custom Functionalities'],
     projectLink: 'https://novaceramics.co/'
+  },
+  {
+    imgSrc: '/images/BidetBuddy.png',
+    title: 'Bidet Products Shopify Store',
+    tags: ['Shopify 2.0', 'eCommerce', 'Custom Apps Integration'],
+    projectLink: 'https://www.bidetbuddy.com/'
   },
   {
     imgSrc: '/images/BoltonMotors.png',
