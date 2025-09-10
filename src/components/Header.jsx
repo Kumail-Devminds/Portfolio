@@ -15,7 +15,7 @@ const Header = () => {
             </h1>
         
             <div className="relative md:justify-self-center">
-                <button className="menu-btn w-10 h-10 md:hidden place-items-center bg-zinc-50/10 rounded-xl ring-inset ring-1 ring-zinc-50/[0.02] backdrop-blur-2xl hover:bg-zinc-50/15 transition-[transform,background-color] active-scale-95" onClick={() => setNavOpen((prev) => !prev)}>
+                <button className="menu-btn flex items-center justify-center w-10 h-10 md:hidden place-items-center bg-zinc-50/10 rounded-xl ring-inset ring-1 ring-zinc-50/[0.02] backdrop-blur-2xl hover:bg-zinc-50/15 transition-[transform,background-color] active-scale-95" onClick={() => setNavOpen((prev) => !prev)}>
                     <span className="material-symbols-rounded">
                         {navOpen ? 'Close' : 'Menu'}
                     </span>
