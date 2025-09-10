@@ -5,31 +5,31 @@ const works = [
   {
     imgSrc: '/images/DanielSmart.png',
     title: 'Athletic Wear Shopify Store',
-    tags: ['Shopify', 'e-Commerce', 'Custom Functionalities', 'Apps Integration'],
+    tags: ['Shopify', 'Warehouse Theme', 'e-Commerce', 'Custom Functionalities', 'Apps Integration'],
     projectLink: 'https://danielsmartmfg.com/'
   },
   {
     imgSrc: '/images/Staccia.png',
     title: 'Premium Athletic Wear Shopify Store',
-    tags: ['Shopify 2.0', 'e-Commerce', 'Custom Functionalities', 'Apps Integration'],
+    tags: ['Shopify 2.0', 'Vantage Theme', 'e-Commerce', 'Custom Functionalities', 'Apps Integration'],
     projectLink: 'https://stacciathletics.com/'
   },
   {
     imgSrc: '/images/Beechtree.png',
     title: 'Women’s Fashion & Apparel Shopify Store',
-    tags: ['Shopify', 'e-Commerce', 'Custom Functionalities', 'Apps Integration'],
+    tags: ['Shopify', 'Dawn Theme', 'e-Commerce', 'Custom Functionalities', 'Apps Integration'],
     projectLink: 'https://beechtree.pk/'
   },
   {
     imgSrc: '/images/NovaCeramics.png',
     title: 'Nova Ceramics Shopify Store',
-    tags: ['Shopify 2.0', 'eCommerce', 'Custom Functionalities', 'Apps Integration'],
+    tags: ['Shopify 2.0', 'Symmetry Theme', 'eCommerce', 'Custom Functionalities', 'Apps Integration'],
     projectLink: 'https://novaceramics.co/'
   },
   {
     imgSrc: '/images/BidetBuddy.png',
     title: 'Bidet Products Shopify Store',
-    tags: ['Shopify 2.0', 'eCommerce', 'Custom Apps Integration', 'Apps Integration'],
+    tags: ['Shopify 2.0', 'Be Yours Theme', 'eCommerce', 'Custom Apps Integration', 'Apps Integration'],
     projectLink: 'https://www.bidetbuddy.com/'
   },
   // {
@@ -41,7 +41,7 @@ const works = [
   {
     imgSrc: '/images/DriveGoods.png',
     title: 'DriveGoods is a Shopify Store for auto accessories.',
-    tags: ['Shopify', 'e-Commerce', 'Custom Functionalities', 'Apps Integration'],
+    tags: ['Shopify', 'Local Theme', 'e-Commerce', 'Custom Functionalities', 'Apps Integration'],
     projectLink: 'https://drivegoods.com/'
   },
 ]
