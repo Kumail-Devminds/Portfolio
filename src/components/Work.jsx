@@ -8,12 +8,12 @@ const works = [
     tags: ['Shopify', 'eCommerce', 'Custom Apps Integration'],
     projectLink: 'https://danielsmartmfg.com/'
   },
-  // {
-  //   imgSrc: '/images/Staccia.png',
-  //   title: 'Premium Athletic Wear Shopify Store',
-  //   tags: ['Shopify 2.0', 'eCommerce', 'Custom Functionalities'],
-  //   projectLink: 'https://stacciathletics.com/'
-  // },
+  {
+    imgSrc: '/images/Staccia.png',
+    title: 'Premium Athletic Wear Shopify Store',
+    tags: ['Shopify 2.0', 'eCommerce', 'Custom Functionalities'],
+    projectLink: 'https://stacciathletics.com/'
+  },
   {
     imgSrc: '/images/Beechtree.png',
     title: 'Women’s Fashion & Apparel Shopify Store',
@@ -32,12 +32,12 @@ const works = [
     tags: ['Shopify 2.0', 'eCommerce', 'Custom Apps Integration'],
     projectLink: 'https://www.bidetbuddy.com/'
   },
-  {
-    imgSrc: '/images/BoltonMotors.png',
-    title: 'Motorcycle Parts & Accessories Shopify Store',
-    tags: ['Shopify 2.0', 'eCommerce', 'Custom Functionalities'],
-    projectLink: 'https://haouje-motors-store.myshopify.com/'
-  },
+  // {
+  //   imgSrc: '/images/BoltonMotors.png',
+  //   title: 'Motorcycle Parts & Accessories Shopify Store',
+  //   tags: ['Shopify 2.0', 'eCommerce', 'Custom Functionalities'],
+  //   projectLink: 'https://haouje-motors-store.myshopify.com/'
+  // },
   {
     imgSrc: '/images/DriveGoods.png',
     title: 'DriveGoods is a Shopify Store for auto accessories.',
