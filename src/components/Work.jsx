@@ -5,31 +5,31 @@ const works = [
   {
     imgSrc: '/images/DanielSmart.png',
     title: 'Athletic Wear Shopify Store',
-    tags: ['Shopify', 'eCommerce', 'Custom Apps Integration'],
+    tags: ['Shopify', 'e-Commerce', 'Custom Functionalities', 'Apps Integration'],
     projectLink: 'https://danielsmartmfg.com/'
   },
   {
     imgSrc: '/images/Staccia.png',
     title: 'Premium Athletic Wear Shopify Store',
-    tags: ['Shopify 2.0', 'eCommerce', 'Custom Functionalities'],
+    tags: ['Shopify 2.0', 'e-Commerce', 'Custom Functionalities', 'Apps Integration'],
     projectLink: 'https://stacciathletics.com/'
   },
   {
     imgSrc: '/images/Beechtree.png',
     title: 'Women’s Fashion & Apparel Shopify Store',
-    tags: ['Shopify', 'eCommerce', 'Custom Functionalities'],
+    tags: ['Shopify', 'e-Commerce', 'Custom Functionalities', 'Apps Integration'],
     projectLink: 'https://beechtree.pk/'
   },
   {
     imgSrc: '/images/NovaCeramics.png',
     title: 'Nova Ceramics Shopify Store',
-    tags: ['eCommerce', 'Shopify 2.0', 'Custom Functionalities'],
+    tags: ['Shopify 2.0', 'eCommerce', 'Custom Functionalities', 'Apps Integration'],
     projectLink: 'https://novaceramics.co/'
   },
   {
     imgSrc: '/images/BidetBuddy.png',
     title: 'Bidet Products Shopify Store',
-    tags: ['Shopify 2.0', 'eCommerce', 'Custom Apps Integration'],
+    tags: ['Shopify 2.0', 'eCommerce', 'Custom Apps Integration', 'Apps Integration'],
     projectLink: 'https://www.bidetbuddy.com/'
   },
   // {
@@ -41,7 +41,7 @@ const works = [
   {
     imgSrc: '/images/DriveGoods.png',
     title: 'DriveGoods is a Shopify Store for auto accessories.',
-    tags: ['eCommerce', 'Shopify', 'Custom Functionalities'],
+    tags: ['Shopify', 'e-Commerce', 'Custom Functionalities', 'Apps Integration'],
     projectLink: 'https://drivegoods.com/'
   },
 ]
