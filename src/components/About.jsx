@@ -20,13 +20,7 @@ const About = () => {
             <div className="bg-zinc-800/50 p-7 rounded-2xl
             md:p-12 reveal-up">
                 <p className="text-zinx-300 mb-4 md:mb-8md:text-xl md:max-w-[60ch]">
-                    Welcome! This is Hafiz Muhammad Kumail, an aspired Shopify Developer 
-                    with 4 years of experience in building responsive, 
-                    high-performing eCommerce stores. 
-                    Blending technical expertise with creative 
-                    problem-solving, I craft seamless shopping experiences 
-                    that boost performance and bring your brand’s vision 
-                    to life. Alongside Shopify, I also work as a Front-end WebApp Developer, building modern Web applications and Shopify apps using React and Redux.
+                    This is Hafiz Muhammad Kumail, a results-driven Shopify Developer with 4 years of experience in building responsive, high-performing eCommerce stores. Blending technical expertise with creative problem-solving, I craft seamless shopping experiences that enhance performance and bring your brand’s vision to life. In addition to Shopify, I also specialize as a Front-end WebApp Developer, creating modern web applications and Shopify apps using React and Redux.
                 </p>
                 <div className="flex flex-wrap items-center gap-4
                 md:gap-7">

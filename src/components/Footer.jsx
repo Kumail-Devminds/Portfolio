@@ -38,7 +38,7 @@ const Footer = () => {
 
             <div className="grid justify-self-start">
                 <ButtonPrimary 
-                    href="mailto:kumaildevminds@gmail.com"
+                    href="mailto:kumaildev2@gmail.com"
                     label="Start project"
                     icons="chevron_right"
                     className="justify-self-start reveal-up"
@@ -84,7 +84,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-between pt-10 mt-8">
+        <div className="flex items-center justify-between pt-10 pb-10 mt-8">
           <a href="/" className="logo reveal-up">
             <img 
               src="/images/logo.svg"

@@ -17,11 +17,11 @@ const skillItem = [
     label: 'TailwindCSS',
     desc: 'User Interface'
   },
-  {
-    imgSrc: '/images/liquid.png',
-    label: 'Liquid',
-    desc: 'Shopify Templating'
-  },
+  // {
+  //   imgSrc: '/images/liquid.png',
+  //   label: 'Liquid',
+  //   desc: 'Shopify Templating'
+  // },
   {
     imgSrc: '/images/json.svg',
     label: 'JSON',
@@ -36,6 +36,11 @@ const skillItem = [
     imgSrc: '/images/react.svg',
     label: 'React',
     desc: 'Framework'
+  },
+  {
+    imgSrc: '/images/expressjs.svg',
+    label: 'Express.js',
+    desc: 'Framework for Node.js'
   },
   {
     imgSrc: '/images/nodejs.svg',
