@@ -1,5 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import ProjectCard from './ProjectCard';
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const shopifyThemes = [
   {
@@ -75,7 +79,10 @@ const WorkTabs = () => {
   useEffect(() => {
     initActiveBox(activeTab);
     setVisibleCount(6);
+
+    ScrollTrigger.refresh();
   }, [activeTab]);
+
 
   const projects = activeTab === 'themes' ? shopifyThemes : shopifyApps;
 
@@ -84,7 +91,10 @@ const WorkTabs = () => {
   };
 
   return (
-    <section className="section pt-20 lg:pt-32" id="work">
+    <section 
+      className="section pt-20 lg:pt-32 min-h-[80vh]" 
+      id="work"
+    >
       <div className="container">
         <h2 className="headline-2 mb-8 reveal-up">My portfolio highlights</h2>
 
@@ -139,9 +149,10 @@ const WorkTabs = () => {
             />
           ))}
 
-          {Array.from({ length: Math.max(0, 6 - projects.length) }).map((_, i) => (
-            <div key={`placeholder-${i}`} className="invisible" />
-          ))}
+          {projects.length >= 6 &&
+            Array.from({ length: Math.max(0, 6 - projects.length) }).map((_, i) => (
+              <div key={`placeholder-${i}`} className="invisible" />
+            ))}
         </div>
 
         {visibleCount < projects.length && (
