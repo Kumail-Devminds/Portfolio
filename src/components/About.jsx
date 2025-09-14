@@ -20,7 +20,7 @@ const About = () => {
             <div className="bg-zinc-800/50 p-7 rounded-2xl
             md:p-12 reveal-up">
                 <p className="text-zinx-300 mb-4 md:mb-8md:text-xl md:max-w-[60ch]">
-                    This is Hafiz Muhammad Kumail, a results-driven Shopify Developer with 4 years of experience in building responsive, high-performing eCommerce stores. Blending technical expertise with creative problem-solving, I craft seamless shopping experiences that enhance performance and bring your brand’s vision to life. In addition to Shopify, I also specialize as a Front-end WebApp Developer, creating modern web applications and Shopify apps using React and Redux.
+                    I’m Hafiz Muhammad Kumail, a Senior Shopify Full-Stack Developer with 4+ years of experience. I specialize in building high-performing Shopify stores and apps that deliver seamless shopping experiences. My expertise spans Shopify theme development with HTML, CSS, Liquid, and JavaScript, as well as app development using React, Redux, Tailwind, Polaris, Node.js, Express.js, and MongoDB. With proven experience across leading brands and agencies, I combine technical precision with creative problem-solving to bring ideas to life and add real value to every project.
                 </p>
                 <div className="flex flex-wrap items-center gap-4
                 md:gap-7">
