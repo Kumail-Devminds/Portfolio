@@ -23,6 +23,11 @@ const skillItem = [
   //   desc: 'Shopify Templating'
   // },
   {
+    imgSrc: '/images/shopify.svg',
+    label: 'Shopify',
+    desc: 'eCommerce Platform'
+  },
+  {
     imgSrc: '/images/json.svg',
     label: 'JSON',
     desc: 'Data Format'
@@ -48,14 +53,9 @@ const skillItem = [
     desc: 'Web Server'
   },
   {
-    imgSrc: '/images/shopify.svg',
-    label: 'Shopify',
-    desc: 'eCommerce Platform'
-  },
-  {
-    imgSrc: '/images/figma.svg',
-    label: 'Figma',
-    desc: 'Design tool'
+    imgSrc: '/images/mongodb.svg',
+    label: 'MongoDB',
+    desc: 'Database'
   },
   {
     imgSrc: '/images/github.svg',
@@ -63,9 +63,9 @@ const skillItem = [
     desc: 'Code collaboration platform'
   },
   {
-    imgSrc: '/images/mongodb.svg',
-    label: 'MongoDB',
-    desc: 'Database'
+    imgSrc: '/images/figma.svg',
+    label: 'Figma',
+    desc: 'Design tool'
   },
 ];
 
