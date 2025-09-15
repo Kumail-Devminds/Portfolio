@@ -39,7 +39,7 @@ const Hero = () => {
                 icons="download"
                 onClick={() => {
                     const link = document.createElement('a');
-                    link.href = '/images/resume1.jpg';
+                    link.href = '/images/resume-2.jpg';
                     link.setAttribute('download', 'resume.jpg');
                     document.body.appendChild(link);
                     link.click();
