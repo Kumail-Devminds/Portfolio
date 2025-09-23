@@ -1,6 +1,5 @@
-import React, { use } from 'react'
-import ReviewCard from './ReviewCard'
-import { ReactLenis } from 'lenis/react';
+import React from 'react';
+import ReviewCard from './ReviewCard';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from '@gsap/react';
@@ -48,40 +47,45 @@ const reviews = [
 
 const Review = () => {
   useGSAP(() => {
-    gsap.to('.scrub-slide', {
-      scrollTrigger: {
-        trigger: '.scrub-slide',
-        start: '-200% 80%',
-        end: '400% 80%',
-        scrub: true
-      },
-      x: '-1000',
+    const ctx = gsap.context(() => {
+      gsap.to('.scrub-slide', {
+        x: '-1000',
+        scrollTrigger: {
+          trigger: '.scrub-slide',
+          start: '-200% 80%',
+          end: '400% 80%',
+          scrub: true
+        }
+      });
     });
-  });
+
+    return () => ctx.revert();
+  }, []);
+
   return (
     <section 
-        className="section pt-20 lg:pt-32 overflow-hidden" 
-        id="review"
+      className="section pt-20 lg:pt-32 overflow-hidden" 
+      id="review"
     >
-        <div className="container">
-            <h2 className="headline-2 mb-8 reveal-up">
-                What our customers say
-            </h2>
+      <div className="container">
+        <h2 className="headline-2 mb-8 reveal-up">
+          What our customers say
+        </h2>
 
-            <div className="scrub-slide flex items-stretch gap-3 w-fit">
-                {reviews.map(({content, name, imgSrc, company}, key) => (
-                    <ReviewCard 
-                        key={key}
-                        name={name}
-                        imgSrc={imgSrc}
-                        company={company}
-                        content={content}
-                    />
-                ))}
-            </div>
+        <div className="scrub-slide flex items-stretch gap-3 w-fit">
+          {reviews.map(({ content, name, imgSrc, company }, key) => (
+            <ReviewCard 
+              key={key}
+              name={name}
+              imgSrc={imgSrc}
+              company={company}
+              content={content}
+            />
+          ))}
         </div>
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default Review
+export default Review;
