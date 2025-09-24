@@ -63,6 +63,26 @@ const skillItem = [
     desc: 'Code collaboration platform'
   },
   {
+    imgSrc: '/images/Git.svg',
+    label: 'Git',
+    desc: 'Version Control System'
+  },
+  {
+    imgSrc: '/images/api-interface.svg',
+    label: 'APIs',
+    desc: 'Integrations'
+  },
+  {
+    imgSrc: '/images/vercel.svg',
+    label: 'Vercel',
+    desc: 'Seamless Web Deployments'
+  },
+  {
+    imgSrc: '/images/Debugging.svg',
+    label: 'Testing',
+    desc: 'Debug & QA'
+  },
+  {
     imgSrc: '/images/figma.svg',
     label: 'Figma',
     desc: 'Design tool'

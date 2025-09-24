@@ -22,9 +22,22 @@ const ProjectCard = ({
 
         <div className="flex items-center justify-between gap-4">
             <div>
-                <h3 className="title-1 mb-3">
-                    {title}
-                </h3>
+                <div className="flex items-start justify-between gap-4">
+                    <h3 className="title-1 mb-3">
+                        {title}
+                    </h3>
+
+                    <div className="w-11 h-11 rounded-lg grid
+                        place-items-center bg-sky-400 text-zinc-950
+                        shrink-0">
+                        <span 
+                            className="material-symbols-rounded"
+                            aria-hidden="true"
+                        >
+                            arrow_outward
+                        </span>
+                    </div>
+                </div>
     
                 <div className="flex flex-wrap items-center
                 gap-2">
@@ -39,17 +52,6 @@ const ProjectCard = ({
                         </span>
                     ))}
                 </div>
-            </div>
-
-            <div className="w-11 h-11 rounded-lg grid
-            place-items-center bg-sky-400 text-zinc-950
-            shrink-0">
-                <span 
-                    className="material-symbols-rounded"
-                    aria-hidden="true"
-                >
-                    arrow_outward
-                </span>
             </div>
         </div>
 
