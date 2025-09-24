@@ -58,14 +58,14 @@ const skillItem = [
     desc: 'Database'
   },
   {
-    imgSrc: '/images/github.svg',
-    label: 'GitHub',
-    desc: 'Code collaboration platform'
-  },
-  {
     imgSrc: '/images/Git.svg',
     label: 'Git',
     desc: 'Version Control System'
+  },
+  {
+    imgSrc: '/images/github.svg',
+    label: 'GitHub',
+    desc: 'Code collaboration platform'
   },
   {
     imgSrc: '/images/api-interface.svg',
